@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Table RowSpanCOlspan</title>
+        <link rel="stylesheet" href="style/style.css">
+        <!-- <style>
+
+            table, tr, th,td{
+                border: 1px solid  black; 
+                border-collapse: collapse;  
+                
+            }
+
+            table{
+            width: 100%;
+            }
+            .paragraph{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 50px;
+                text-align: center;
+            }
+            .center{
+                font-size: 15px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 500;
+            }
+        </style> -->
+       <!--- <style>
+            body{
+                background-color: aqua;
+                color: white;
+                
+            }
+
+            .table-border,td,th{
+                background-color: blueviolet;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+        </style> -->
+     </head>
+    <body>
+       
+       <center>
+        <table class="table-border">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Mata Kuliah</th>
+                    <th>SKS</th>
+                    <th>Nama Dosen</th>
+                    <th colspan="2">Jadwal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center" rowspan="2">1</td>
+                    <td rowspan="2">Pemdas</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">Anto</td>
+                    <td>08.00</td>
+                    <td>08.30</td>
+                    
+                </tr>
+                <tr>                    
+                    <td>08.30</td>
+                    <td>09.00</td>
+                </tr>
+                <tr>
+                    <td colspan="6" align="center">Istirahat</td>
+                </tr>
+                <tr>
+                    <td align="center" rowspan="2">2</td>
+                    <td rowspan="2">Pemdas</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">Budi</td>
+                    <td>09.20</td>
+                    <td>10.00</td>
+                    
+                </tr>
+                <tr>                    
+                    <td>08.30</td>
+                    <td>09.00</td>
+                </tr>
+                <tr>
+                    <td align="center" rowspan="2">3</td>
+                    <td rowspan="2">Pemdas</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">Anto</td>
+                    <td>08.00</td>
+                    <td>08.30</td>
+                    
+                </tr>
+                <tr>                    
+                    <td>08.30</td>
+                    <td>09.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+        
+    
+    </body>
+</html>
