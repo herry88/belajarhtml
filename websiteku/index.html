@@ -6,10 +6,28 @@
     <title>Belajar Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .img{
+            background-image: url('images/background.jpeg');
+            
+            
+        }
+    </style>
 </head>
 <body>
+    <!-- ini untuk menu -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+       <a href="#" class="navbar-brand" >Logo</a>
+
+       <!-- Link -->
+       <ul class="navbar-nav">
+           <li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+           <li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+       </ul>
+    </nav>
+
     <!-- Ini bagian banner -->
-    <div class="jumbotron">
+    <div class="jumbotron img text-white text-center">
         <h1>My First Bootstrap Page</h1>
         <p>Selamat Datang Di website saya</p>
     </div>
@@ -17,11 +35,33 @@
     <!-- Bagian content -->
     <div class="container">
         <div class="row">
+            <!-- Column 1 -->
             <div class="col-sm-4">
                 <h3>Consulting IT</h3>
+                <img class ="rounded" src="images/phplogo.png" width="150" height="150">
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-sm-4">
+                <h3>Trainer IT</h3>
                 <p>ini kalimat</p>
             </div>
+
+             <!-- Column 3    -->
+            <div class="col-sm-4">
+                <h3>Reparing IT</h3>
+                <p>ini kalimat</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Tes Wa</h3>
+                <p>
+                    <a href="http://api.whatsapp.com/send?phone=6281219121687">
+                    <img src="images/wa.png" class="rounded-circle" width="100" height="100">
+                </a>
+            </p>
+            </div>
         </div>
+        
     </div>
 </body>
 </html>
